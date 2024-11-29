@@ -39,8 +39,18 @@ function App() {
 					name="description"
 					content="ROCK ETUDES — це авторська збірка вправ створена на основі моделі “Estill Voice”"
 				/>
-				<meta name="site_name" content="ROCK ETUDES" />
-				<meta name="image" content={main} />
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content="Rock Etudes" />
+				<meta
+					property="og:description"
+					content="ROCK ETUDES — це авторська збірка вправ створена на основі моделі “Estill Voice”"
+				/>
+				<meta
+					property="og:url"
+					content="https://rock-etudes-ia5avvq3z-grigoriyshkartas-projects.vercel.app/"
+				/>
+				<meta property="og:image" content={main} />
+				<meta property="og:site_name" content="Rock Etudes" />
 			</Helmet>
 
 			<Header setOpenBurger={setOpenBurger} openBurger={openBurger} />
