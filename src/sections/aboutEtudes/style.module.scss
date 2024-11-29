@@ -1,0 +1,44 @@
+@use "../../assets/styles/_vars.scss" as *;
+
+.section {
+	@include Section;
+}
+
+.textBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.block {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+
+	svg {
+		flex-shrink: 0;
+	}
+}
+
+.button {
+	@include Button;
+}
+
+.top {
+	width: 100vw;
+	height: auto;
+	max-height: 30vh;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(180deg);
+	top: -1rem;
+}
+
+.bottom {
+	width: 100vw;
+	height: auto;
+	max-height: 30vh;
+	position: absolute;
+	z-index: -1;
+	bottom: -1rem;
+}

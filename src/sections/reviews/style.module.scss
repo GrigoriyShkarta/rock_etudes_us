@@ -1,0 +1,61 @@
+@use "../../assets/styles/_vars.scss" as *;
+
+.section {
+	@include Section;
+}
+
+.block {
+	height: 300px;
+}
+
+// .carousel {
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 0.5rem;
+// }
+
+.img {
+	// width: 360px;
+	height: 600px;
+	border-radius: 5%;
+	padding: 0 10px;
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ccc;
+	margin: 0 5px;
+	border: none;
+	cursor: pointer;
+}
+.activeDot {
+	background-color: #333;
+}
+
+.top {
+	width: 100vw;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(180deg);
+	top: -1rem;
+}
+
+.button {
+	@include Button;
+}
+
+.bottom {
+	width: 100vw;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+	bottom: -1rem;
+}

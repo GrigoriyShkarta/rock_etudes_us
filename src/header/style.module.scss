@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100vw;
+	align-items: center;
+	background-color: black;
+	max-width: 1024px;
+	margin: 0 auto;
+
+	@media (min-width: 1024px) {
+		display: none;
+	}
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.logo {
+	width: 35px;
+	height: 35px;
+}
+
+.title {
+	font-size: 20px;
+}
