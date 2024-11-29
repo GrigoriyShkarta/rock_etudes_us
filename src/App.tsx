@@ -31,7 +31,10 @@ function App() {
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Rock Etudes</title>
-				<link rel="canonical" href="http://mysite.com/example" />
+				<link
+					rel="canonical"
+					href="https://rock-etudes-ia5avvq3z-grigoriyshkartas-projects.vercel.app/"
+				/>
 				<meta
 					name="description"
 					content="ROCK ETUDES — це авторська збірка вправ створена на основі моделі “Estill Voice”"
