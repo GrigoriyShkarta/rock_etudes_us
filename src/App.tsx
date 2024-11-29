@@ -31,10 +31,7 @@ function App() {
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Rock Etudes</title>
-				<link
-					rel="canonical"
-					href="https://rock-etudes-ia5avvq3z-grigoriyshkartas-projects.vercel.app/"
-				/>
+				<link rel="canonical" href="https://rock-etudes.vercel.app/" />
 				<meta
 					name="description"
 					content="ROCK ETUDES — це авторська збірка вправ створена на основі моделі “Estill Voice”"
@@ -45,10 +42,7 @@ function App() {
 					property="og:description"
 					content="ROCK ETUDES — це авторська збірка вправ створена на основі моделі “Estill Voice”"
 				/>
-				<meta
-					property="og:url"
-					content="https://rock-etudes-ia5avvq3z-grigoriyshkartas-projects.vercel.app/"
-				/>
+				<meta property="og:url" content="https://rock-etudes.vercel.app/" />
 				<meta property="og:image" content={main} />
 				<meta property="og:site_name" content="Rock Etudes" />
 			</Helmet>
