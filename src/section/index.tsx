@@ -1,4 +1,5 @@
 import { FC, ReactNode, useEffect } from "react";
+import s from "./style.module.scss";
 
 interface Props {
 	children: ReactNode;
@@ -27,7 +28,7 @@ const Section: FC<Props> = ({ children }) => {
 		};
 	}, []);
 
-	return <div className="section">{children}</div>;
+	return <section className={s.section}>{children}</section>;
 };
 
 export default Section;

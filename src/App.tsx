@@ -4,7 +4,6 @@ import "./App.scss";
 import main from "./assets/img/main.webp";
 import Footer from "./footer";
 import Header from "./header";
-import Section from "./section";
 import AboutAuthor from "./sections/aboutAuthor";
 import AboutEtudes from "./sections/aboutEtudes";
 import BurgerMenu from "./sections/burgerMenu";
@@ -49,14 +48,22 @@ function App() {
 
 			<Header setOpenBurger={setOpenBurger} openBurger={openBurger} />
 			{openBurger && <BurgerMenu setOpenBurger={setOpenBurger} />}
-			<Section children={<Main />} />
-			<Section children={<AboutEtudes />} />
-			<Section children={<GoesTo />} />
-			<Section children={<WhatEnter />} />
-			<Section children={<AboutAuthor />} />
-			<Section children={<Reviews />} />
-			<Section children={<Prices />} />
-			<Section children={<Questions />} />
+			<Main />
+			<AboutEtudes />
+			<GoesTo />
+			<WhatEnter />
+			<AboutAuthor />
+			<Reviews />
+			<Prices />
+			<Questions />
+			{/* <Section children={<Main />} /> */}
+			{/* <Section children={<AboutEtudes />} /> */}
+			{/* <Section children={<GoesTo />} /> */}
+			{/* <Section children={<WhatEnter />} /> */}
+			{/* <Section children={<AboutAuthor />} /> */}
+			{/* <Section children={<Reviews />} /> */}
+			{/* <Section children={<Prices />} /> */}
+			{/* <Section children={<Questions />} /> */}
 			<Footer />
 		</>
 	);
