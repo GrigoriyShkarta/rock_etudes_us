@@ -16,6 +16,12 @@
 	border: 1px solid;
 	border-radius: 10px;
 	padding: 10px;
+	margin-top: 0;
+	transition: margin-top 0.3s ease;
+}
+
+details[open] .summary + p {
+	margin-top: 10px;
 }
 
 .summary {

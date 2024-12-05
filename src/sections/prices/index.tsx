@@ -21,7 +21,7 @@ const Prices: FC = () => (
 									відбудеться 01.01.2025.
 								</p>
 							</div>
-							<p className={s.priceText}>1 999 грн</p>
+							<p className={s.priceText}>2 290 грн</p>
 						</div>
 
 						<div className={s.price}>
@@ -36,7 +36,7 @@ const Prices: FC = () => (
 									марафону. Акція триває до 14.12.2024.
 								</p>
 							</div>
-							<p className={s.priceText}>1 599 грн</p>
+							<p className={s.priceText}>1 790 грн</p>
 						</div>
 
 						<div className={s.price}>
@@ -50,9 +50,15 @@ const Prices: FC = () => (
 									надіслала Вам особисто. Акція триває до 01.01.2025.
 								</p>
 							</div>
-							<p className={s.priceText}>1 399 грн</p>
+							<p className={s.priceText}>1 490 грн</p>
 						</div>
 					</div>
+					<p className={s.book}>
+						* За бажанням ви можете оформити передзамовлення друкованого
+						збірника з доплатою 350 грн. Відправка відбудеться в січні, доставка
+						Новою поштою оплачується вами при отриманні. Відправка першої партії
+						відбудеться у січні.
+					</p>
 					<Button />
 				</>
 			}
