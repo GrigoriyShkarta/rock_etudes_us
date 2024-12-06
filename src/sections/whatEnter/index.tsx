@@ -39,7 +39,7 @@ const WhatEnter: FC = () => (
 						<div className={s.block}>
 							<MdOutlineDone size={40} />
 							<p className={s.text}>
-								Доступ до закритого телеграм-каналу з усіми матеріалами
+								Доступ до закритого телеграм-каналу з усіма матеріалами
 							</p>
 						</div>
 					</div>
