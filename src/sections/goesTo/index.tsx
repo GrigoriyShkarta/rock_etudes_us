@@ -30,8 +30,8 @@ const GoesTo: FC = () => (
 					</div>
 					<div className={s.block}>
 						<img src={rock} className={s.svg} />
-						<h3 className={s.subtitle}>УСІМ, ХТО ПОЛЮБЛЯЄ РОК</h3>
-						<p>І хотів би тренуватися під улюблену музику</p>
+						<h3 className={s.subtitle}>РОКЕРАМ</h3>
+						<p>Які хочуть тренуватися під улюблену музику</p>
 					</div>
 					<Button />
 				</>
