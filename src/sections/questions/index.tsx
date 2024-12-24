@@ -5,7 +5,7 @@ import s from "./style.module.scss";
 
 const Questions: FC = () => {
 	return (
-		<div className={s.section} id={"7"}>
+		<div className={s.section} id={"8"}>
 			<Section
 				children={
 					<>

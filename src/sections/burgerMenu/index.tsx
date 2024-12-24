@@ -42,7 +42,7 @@ const BurgerMenu: FC<Props> = ({ setOpenBurger }) => (
 			duration={500}
 			className={s.text}
 		>
-			Про автора
+			Зміст
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
@@ -51,11 +51,21 @@ const BurgerMenu: FC<Props> = ({ setOpenBurger }) => (
 			duration={500}
 			className={s.text}
 		>
+			Про автора
+		</Link>
+
+		<Link
+			onClick={() => setOpenBurger(false)}
+			to={"6"}
+			smooth={true}
+			duration={500}
+			className={s.text}
+		>
 			Відгуки
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"6"}
+			to={"7"}
 			smooth={true}
 			duration={500}
 			className={s.text}
@@ -64,7 +74,7 @@ const BurgerMenu: FC<Props> = ({ setOpenBurger }) => (
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"7"}
+			to={"8"}
 			smooth={true}
 			duration={500}
 			className={s.text}

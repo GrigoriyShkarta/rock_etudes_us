@@ -4,7 +4,7 @@ import Section from "../../section";
 import s from "./style.module.scss";
 
 const Prices: FC = () => (
-	<div className={s.section} id="6">
+	<div className={s.section} id="7">
 		<Section
 			children={
 				<>

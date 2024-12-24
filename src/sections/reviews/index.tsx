@@ -17,7 +17,7 @@ const Reviews: FC = () => {
 	const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
 	return (
-		<div className={s.section} id={"5"}>
+		<div className={s.section} id={"6"}>
 			<Section
 				children={
 					<>

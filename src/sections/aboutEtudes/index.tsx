@@ -46,6 +46,17 @@ const AboutEtudes: FC = () => (
 								ефективного тренування.
 							</p>
 						</div>
+
+						<iframe
+							width="100%"
+							height="500"
+							src="https://www.youtube.com/embed/YwDMNS9tl_c"
+							title="Збірка ROCK ETUDES"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+						></iframe>
 					</div>
 
 					<Button />

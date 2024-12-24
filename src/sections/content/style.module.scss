@@ -1,0 +1,11 @@
+@use "../../assets/styles/_vars.scss" as *;
+
+.section {
+	@include Section;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}

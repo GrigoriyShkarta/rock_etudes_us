@@ -7,6 +7,7 @@ import Header from "./header";
 import AboutAuthor from "./sections/aboutAuthor";
 import AboutEtudes from "./sections/aboutEtudes";
 import BurgerMenu from "./sections/burgerMenu";
+import Content from "./sections/content";
 import GoesTo from "./sections/goesTo";
 import Main from "./sections/main";
 import Prices from "./sections/prices";
@@ -52,10 +53,12 @@ function App() {
 			<AboutEtudes />
 			<GoesTo />
 			<WhatEnter />
+			<Content />
 			<AboutAuthor />
 			<Reviews />
 			<Prices />
 			<Questions />
+
 			{/* <Section children={<Main />} /> */}
 			{/* <Section children={<AboutEtudes />} /> */}
 			{/* <Section children={<GoesTo />} /> */}

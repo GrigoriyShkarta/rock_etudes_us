@@ -5,7 +5,7 @@ import Section from "../../section";
 import s from "./style.module.scss";
 
 const AboutAuthor: FC = () => (
-	<div className={s.section} id={"4"}>
+	<div className={s.section} id={"5"}>
 		<Section
 			children={
 				<>
