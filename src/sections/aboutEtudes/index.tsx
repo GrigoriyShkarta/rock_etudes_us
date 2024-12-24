@@ -52,10 +52,10 @@ const AboutEtudes: FC = () => (
 							height="500"
 							src="https://www.youtube.com/embed/YwDMNS9tl_c"
 							title="Збірка ROCK ETUDES"
-							frameborder="0"
+							frameBorder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin"
-							allowfullscreen
+							referrerPolicy="strict-origin-when-cross-origin"
+							allowFullScreen
 						></iframe>
 					</div>
 
