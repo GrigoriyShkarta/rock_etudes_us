@@ -12,7 +12,7 @@ const Prices: FC = () => (
 					<div className={s.container}>
 						<div className={s.price}>
 							<div className={s.price_top}>
-								<h3 className={s.title}>Light</h3>
+								<h3 className={s.title}>Students</h3>
 							</div>
 							<div className={s.price_bottom}>
 								<p>
@@ -26,23 +26,16 @@ const Prices: FC = () => (
 								</p>
 							</div>
 							<div className={s.prices_block}>
-								<p className={s.priceText_old}>2 500 грн</p>
-								<p className={s.priceText}>1 490 грн</p>
-								<p className={s.smallText}>
-									Акційна ціна на зимові свята діє до 01.01.2025
-								</p>
+								<p className={s.priceText}>1 790 грн</p>
+								<p className={s.smallText}>Акційна ціна для моїх студентів</p>
 							</div>
 						</div>
 
 						<div className={s.price}>
 							<div className={s.price_top}>
-								<h3 className={s.title}>Premium</h3>
+								<h3 className={s.title}>Followers</h3>
 							</div>
 							<div className={s.price_bottom}>
-								<p>
-									📚 Друкована версія збірки: збірка, яку ви триматимете в руках
-									та насолоджуватиметесь її оформленням.
-								</p>
 								<p>
 									📖 Електронна версія збірки: доступна для читання на будь-яких
 									пристроях.
@@ -53,17 +46,13 @@ const Prices: FC = () => (
 									завжди під рукою!
 								</p>
 							</div>
-							<p className={s.priceText_old}>3 000 грн</p>
-							<p className={s.priceText}>1 990 грн</p>
+							<p className={s.priceText}>2 490 грн</p>
 							<p className={s.smallText}>
-								Акційна ціна на зимові свята діє до 01.01.2025
+								Ціна для читачів мого блогу та всіх інших
 							</p>
 						</div>
 					</div>
-					<p className={s.book}>
-						* Доставка друкованої збірки здійснюється Новою поштою за Ваш
-						рахунок. Перша партія буде надіслана в першій половині січня.
-					</p>
+
 					<Button />
 				</>
 			}
