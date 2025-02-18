@@ -1,60 +1,61 @@
-import { FC } from "react";
-import { MdStars } from "react-icons/md";
-import Button from "../../button";
-import Section from "../../section";
-import s from "./style.module.scss";
+import { FC } from 'react'
+import { MdStars } from 'react-icons/md'
+import Button from '../../button'
+import Section from '../../section'
+import s from './style.module.scss'
 
 const AboutEtudes: FC = () => (
-	<div className={s.section} id={"1"}>
+	<div className={s.section} id={'1'}>
 		<Section
 			children={
 				<>
-					<h1 className={s.title}>ПРО ЗБІРНИК</h1>
+					<h1 className={s.title}>ABOUT THE COLLECTION</h1>
 					<div className={s.textBlock}>
 						<div className={s.block}>
 							<MdStars size={42} />
 							<p className={s.text}>
-								ROCK ETUDES — це авторська збірка вправ створена на основі
-								моделі “Estill Voice”.
+								ROCK ETUDES is an author's collection of exercises created on
+								the basis of "Estill Voice" models.
 							</p>
 						</div>
 						<div className={s.block}>
 							<MdStars size={42} />
 							<p className={s.text}>
-								Дані вправи допоможуть тобі легше, цікавіше опанувати та почати
-								свідомо контролювати 13 анатомічних структур голосового апарату.
+								These exercises will help you learn and start more easily and
+								interestingly consciously control 13 anatomical structures of
+								the vocal apparatus.
 							</p>
 						</div>
 						<div className={s.block}>
 							<MdStars size={42} />
 							<p className={s.text}>
-								Особливість збірки в тому, що всі вправи мають стилізоване
-								аранжування у стилі рок.
+								The special feature of the collection is that all exercises are
+								stylized arrangement in the style of rock.
 							</p>
 						</div>
 						<div className={s.block}>
 							<MdStars size={42} />
 							<p className={s.text}>
-								Також збірка містить базову теоретичну інформацію про кожну
-								структуру та навідні вправи.
+								The collection also contains basic theoretical information about
+								each structure and guided exercises.
 							</p>
 						</div>
 						<div className={s.block}>
 							<MdStars size={42} />
 							<p className={s.text}>
-								В телеграм-каналі ти знайдеш всі необхідні mp3-файли для свого
-								ефективного тренування.
+								In the Telegram channel you will find all the necessary mp3
+								files for your effective training.
 							</p>
 						</div>
 
 						<iframe
-							width="100%"
-							height="500"
-							src="https://www.youtube.com/embed/YwDMNS9tl_c"
-							title="Збірка ROCK ETUDES"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerPolicy="strict-origin-when-cross-origin"
+							width='100%'
+							height='500'
+							src='https://www.youtube.com/shorts/Zqp8RlCzuqw'
+							title='ROCK ETUDES'
+							frameBorder='0'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+							referrerPolicy='strict-origin-when-cross-origin'
 							allowFullScreen
 						></iframe>
 					</div>
@@ -64,6 +65,6 @@ const AboutEtudes: FC = () => (
 			}
 		/>
 	</div>
-);
+)
 
-export default AboutEtudes;
+export default AboutEtudes

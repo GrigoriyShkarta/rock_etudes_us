@@ -1,87 +1,87 @@
-import { Dispatch, FC, SetStateAction } from "react";
-import { Link } from "react-scroll";
-import s from "./style.module.scss";
+import { Dispatch, FC, SetStateAction } from 'react'
+import { Link } from 'react-scroll'
+import s from './style.module.scss'
 
 interface Props {
-	setOpenBurger: Dispatch<SetStateAction<boolean>>;
+	setOpenBurger: Dispatch<SetStateAction<boolean>>
 }
 
 const BurgerMenu: FC<Props> = ({ setOpenBurger }) => (
 	<div className={s.container}>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"1"}
+			to={'1'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Про збірник
+			About the collection
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"2"}
+			to={'2'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Кому підійде
+			Who will it suit?
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"3"}
+			to={'3'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Що входить
+			What is included
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"4"}
+			to={'4'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Зміст
+			Content
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"5"}
+			to={'5'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Про автора
+			About the author
 		</Link>
 
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"6"}
+			to={'6'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Відгуки
+			Reviews
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"7"}
+			to={'7'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Ціни
+			Prices
 		</Link>
 		<Link
 			onClick={() => setOpenBurger(false)}
-			to={"8"}
+			to={'8'}
 			smooth={true}
 			duration={500}
 			className={s.text}
 		>
-			Часті запитання
+			FAQ
 		</Link>
 	</div>
-);
+)
 
-export default BurgerMenu;
+export default BurgerMenu

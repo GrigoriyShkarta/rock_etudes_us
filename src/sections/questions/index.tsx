@@ -1,73 +1,74 @@
-import { FC } from "react";
-import Button from "../../button";
-import Section from "../../section";
-import s from "./style.module.scss";
+import { FC } from 'react'
+import Button from '../../button'
+import Section from '../../section'
+import s from './style.module.scss'
 
 const Questions: FC = () => {
 	return (
-		<div className={s.section} id={"8"}>
+		<div className={s.section} id={'8'}>
 			<Section
 				children={
 					<>
-						<h1>Часті запитання</h1>
+						<h1>FAG</h1>
 						<div className={s.question}>
 							<details className={s.details}>
-								<summary className={s.summary}>Як придбати збірку?</summary>
+								<summary className={s.summary}>
+									How to purchase a collection?
+								</summary>
 								<p>
-									Натисніть на кнопку "Придбати", після чого Вас буде переведено
-									в телеграм до відділу турботи. Напишіть "Хочу придбати збірку"
-									і назву тарифу.
+									Click on the "Buy" button, after which you will be transferred
+									to the care department in Telegram. Write "I want to purchase
+									a collection" and the name of the tariff.
 								</p>
 							</details>
 							<details className={s.details}>
 								<summary className={s.summary}>
-									Куди здійснювати оплату?
+									Where to make the payment?
 								</summary>
 								<p>
-									Оплата здійснюється на рахунок ФОП. Реквізити для оплати Вам
-									надішлють в телеграм через відділ турботи.
+									Payment is made to the account of the individual entrepreneur.
+									Payment details will be sent to you in Telegram via the care
+									department.
 								</p>
 							</details>
 							<details className={s.details}>
 								<summary className={s.summary}>
-									Чи підійде збірка початківцям?
+									Is the collection suitable for beginners?
 								</summary>
 								<p>
-									Ця збірка підходить для вокалістів усіх рівнів, але важливо,
-									щоб у Вас не було суттєвих проблем з інтонуванням (потрапляння
-									в ноти).
-								</p>
-							</details>
-
-							<details className={s.details}>
-								<summary className={s.summary}>
-									Чи обов'язково знати ноти?
-								</summary>
-								<p>
-									Знання нот може стати додатковим бонусом, але це не є
-									обов'язковим для тренувань за цією збіркою. До всіх вправ
-									додаються демонстрації.
+									This collection is suitable for vocalists of all levels, but
+									it is important that you do not have significant problems with
+									intonation (getting into the notes).
 								</p>
 							</details>
 
 							<details className={s.details}>
 								<summary className={s.summary}>
-									Скільки буде тривати доступ до збірки?
+									Is it necessary to know the notes?
 								</summary>
 								<p>
-									Доступ до збірки буде вічним, принаймні, якщо не виникнуть
-									технічні проблеми з Telegram.
+									Knowing the notes can be an added bonus, but it is not
+									mandatory for training with this collection. All exercises are
+									accompanied by demonstrations.
+								</p>
+							</details>
+
+							<details className={s.details}>
+								<summary className={s.summary}>
+									How long will access to the collection last?
+								</summary>
+								<p>
+									Access to the collection will be eternal, at least unless
+									there are technical problems with Telegram.
 								</p>
 							</details>
 							<details className={s.details}>
-								<summary className={s.summary}>
-									Чи буде зворотній зв'язок?
-								</summary>
+								<summary className={s.summary}>Will there be feedback?</summary>
 								<p>
-									Ні, зворотній зв'язок не входить до цієї збірки. Однак, якщо у
-									Вас виникли сумніви щодо виконання вправ чи Ви не зовсім
-									розумієте роботу деяких структур, Ви можете звернутися до мене
-									для індивідуальних уроків або консультацій.
+									No, feedback is not included in this collection. However, if
+									you have any doubts about the exercises or you do not fully
+									understand the work of some structures, you can contact me for
+									individual lessons or consultations.
 								</p>
 							</details>
 						</div>
@@ -76,7 +77,7 @@ const Questions: FC = () => {
 				}
 			/>
 		</div>
-	);
-};
+	)
+}
 
-export default Questions;
+export default Questions
