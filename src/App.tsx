@@ -1,8 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Helmet } from 'react-helmet'
 import './App.scss'
-import main from './assets/img/main.webp'
-import Footer from './footer'
 import Header from './header'
 import AboutAuthor from './sections/aboutAuthor'
 import AboutEtudes from './sections/aboutEtudes'
@@ -12,7 +9,6 @@ import GoesTo from './sections/goesTo'
 import Main from './sections/main'
 import Prices from './sections/prices'
 import Questions from './sections/questions'
-import Reviews from './sections/reviews'
 import WhatEnter from './sections/whatEnter'
 
 function App() {
