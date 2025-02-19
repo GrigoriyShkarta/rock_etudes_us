@@ -12,17 +12,17 @@ const Content: FC = () => {
 						<ul className={s.list}>
 							<li>- Introduction</li>
 							<li>- From the author</li>
-							<li>- Vocal folds: attacks and endings</li>
-							<li>- Vocal folds: modes</li>
+							<li>- True Vocal Folds: Onset/Offset</li>
+							<li>- True Vocal Folds: Body-Cover</li>
 							<li>- False vocal folds</li>
 							<li>- Thyroid cartilage</li>
-							<li>- Annular cartilage</li>
+							<li>- Cricoid cartilage</li>
 							<li>- Larynx</li>
-							<li>- Sphincter epiglottis</li>
-							<li>- Soft palate</li>
-							<li>- Language</li>
+							<li>- Aryepiglottic sphincter</li>
+							<li>- Velum</li>
+							<li>- Tongue</li>
 							<li>- Lips</li>
-							<li>- Lower jaw</li>
+							<li>- Jaw</li>
 							<li>- Head and neck</li>
 							<li>- Torso</li>
 							<li>- Conclusion</li>

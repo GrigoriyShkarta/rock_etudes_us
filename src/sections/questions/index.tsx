@@ -16,12 +16,12 @@ const Questions: FC = () => {
 									How to purchase a collection?
 								</summary>
 								<p>
-									Click on the "Buy" button, after which you will be transferred
-									to the care department in Telegram. Write "I want to purchase
-									a collection" and the name of the tariff.
+									Click "Buy" and make payment. After successful payment, you
+									will get access to the Telegram channel, where all the
+									materials will be.
 								</p>
 							</details>
-							<details className={s.details}>
+							{/* <details className={s.details}>
 								<summary className={s.summary}>
 									Where to make the payment?
 								</summary>
@@ -30,7 +30,7 @@ const Questions: FC = () => {
 									Payment details will be sent to you in Telegram via the care
 									department.
 								</p>
-							</details>
+							</details> */}
 							<details className={s.details}>
 								<summary className={s.summary}>
 									Is the collection suitable for beginners?
