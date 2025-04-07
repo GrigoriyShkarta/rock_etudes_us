@@ -46,7 +46,7 @@ const Prices: FC = () => (
 									always at hand!
 								</p>
 							</div>
-							<p className={s.priceText}>100 USD</p>
+							<p className={s.priceText}>49 USD</p>
 							<p className={s.smallText}>
 								Price for my blog readers and everyone else
 							</p>
